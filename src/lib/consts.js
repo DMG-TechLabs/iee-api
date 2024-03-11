@@ -1,1 +1,1 @@
-export const domain = "http://localhost:5173/";
+export const domain = "https://iee-api-nine.vercel.app/";

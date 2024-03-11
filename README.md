@@ -8,5 +8,5 @@ It includes all the lessons and the labs from all 10 semesters
 ## Usage
 
 ```console
-curl "http://localhost:5173/lessons?semester=1"
+curl "https://iee-api-nine.vercel.app/lessons?semester=1"
 ```
