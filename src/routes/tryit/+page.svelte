@@ -80,14 +80,14 @@
 
     .mockup-code{
         max-width: 80%;
-        width: 80%;
+        /* width: 80%; */
         overflow-x: auto;
     }
 
 	@media only screen and (max-width: 800px) {
         .mockup-code{
             max-width: 95%;
-            width: 95%;
+            /* width: 95%; */
         }
     }
 </style>
