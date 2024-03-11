@@ -30,11 +30,23 @@
     <slot />
 </main>
 
+<footer class="footer footer-center p-4 bg-base-300 text-base-content">
+  <aside>
+    <p>Copyright © 2024 - All right reserved by DMG-TechLabs</p>
+  </aside>
+</footer>
+
 <style>
     main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         padding: 2em;
-        display: grid;
-        place-items: center;
         width: 100vw;
+        min-height: 100vh;
+    }
+
+    footer {
+        margin-top: 2em;
     }
 </style>
