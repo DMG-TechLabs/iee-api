@@ -2,6 +2,10 @@
     import { domain } from "$lib/consts.js"
 </script>
 
+<svelte:head>
+    <title>iee-api</title>
+</svelte:head>
+
 <p class="usage">Usage</p>
 <div class="mockup-code bg-primary text-primary-content">
     <pre data-prefix="$"><code>curl "{domain}lessons?semester=1"</code></pre> 

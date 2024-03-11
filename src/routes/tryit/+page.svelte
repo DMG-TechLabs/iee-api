@@ -39,6 +39,10 @@
     });
 </script>
 
+<svelte:head>
+    <title>Try it!</title>
+</svelte:head>
+
 <p class="message">Try it!</p>
 
 <div class="join">

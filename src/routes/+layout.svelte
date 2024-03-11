@@ -10,7 +10,7 @@
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a href="/">Home</a></li>
-                <li><a href="/try">Try it!</a></li>
+                <li><a href="/tryit">Try it!</a></li>
                 <li><a target="_blank" href="https://github.com/DMG-TechLabs/iee-api">Github</a></li>
                 <li><a target="_blank" href="https://iee.ihu.gr">IEE | IHU</a></li>
             </ul>
