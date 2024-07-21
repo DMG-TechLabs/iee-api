@@ -1,13 +1,14 @@
 
-import semester1 from '../../lib/api/1.json';
-import semester2 from '../../lib/api/2.json';
-import semester3 from '../../lib/api/3.json';
-import semester4 from '../../lib/api/4.json';
-import semester5 from '../../lib/api/5.json';
-import semester6 from '../../lib/api/6.json';
-import semester7 from '../../lib/api/7.json';
-import semester8 from '../../lib/api/8.json';
-import semester9 from '../../lib/api/9.json';
+import semester1 from '../../lib/api/1.json' with { type: "json" };
+import semester2 from '../../lib/api/2.json' with { type: "json" };
+import semester3 from '../../lib/api/3.json' with { type: "json" };
+import semester4 from '../../lib/api/4.json' with { type: "json" };
+import semester5 from '../../lib/api/5.json' with { type: "json" };
+import semester6 from '../../lib/api/6.json' with { type: "json" };
+import semester7 from '../../lib/api/7.json' with { type: "json" };
+import semester8 from '../../lib/api/8.json' with { type: "json" };
+import semester9 from '../../lib/api/9.json' with { type: "json" };
+import semester10 from '../../lib/api/10.json' with { type: "json" };
 
 export const semesters = {
     1: semester1,
@@ -19,4 +20,5 @@ export const semesters = {
     7: semester7,
     8: semester8,
     9: semester9,
+    10: semester10,
 };

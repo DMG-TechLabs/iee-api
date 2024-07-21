@@ -3,7 +3,7 @@ import { semesters } from './loadSemesters.js'
 
 
 function isValidSemester(num){
-    return !isNaN(num) && (num > 0 && num < 10);
+    return !isNaN(num) && (num > 0 && num <= 10);
 }
 
 export function GET({ request }) {
