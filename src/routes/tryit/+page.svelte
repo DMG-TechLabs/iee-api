@@ -1,5 +1,4 @@
 <script>
-    import { domain } from "$lib/consts.js"
     import { onMount } from "svelte";
 
     let selected;
@@ -18,7 +17,7 @@
     }
     
     async function GET(index){
-        if(index < 1 || index > 9) return;
+        if(index < 1 || index > 10) return;
 
         try{
             const response = await fetch(`/lessons?semester=${index}`);
@@ -49,7 +48,7 @@
     <p class="url rounded bg-primary">Semester</p>
     <select bind:value={selected} class="select select-primary max-w-xs" on:change={() => GET(selected)}>
         <option value="" disabled>Select</option>
-        {#each range(1, 9) as i}
+        {#each range(1, 10) as i}
             <option value={i}>{i}</option>
         {/each}
     </select>
